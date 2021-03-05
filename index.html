@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <script src="https://kit.fontawesome.com/8e2ac3b7d7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+   <div class="container">
+       <h1>Stop  Watch</h1>
+       <div class="watch">
+           <div class="outer-circle">
+               <div class="inner-circle">
+                   <span class="text minute">0</span>
+               </div>
+           </div>
+           <div class="outer-circle">
+            <div class="inner-circle">
+                <span class="text sec">0</span>
+            </div>
+           </div>
+           <div class="outer-circle">
+            <div class="inner-circle">
+                <span class="text msec">0 </span>
+            </div>
+           </div>
+           <div class="button-wrapper">
+               <button class="button reset hidden">Reset</button>
+               <button class="button play">Start</button>
+               <button class="button lap hidden">Lap</button>
+           </div>
+       </div>
+       <ul class="laps">
+          
+           <button class="lap-lear-button hidden">Clear All</button>
+       </ul>
+   </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
